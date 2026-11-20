@@ -1,0 +1,51 @@
+/*
+this is a comment
+rule syntax:
+selector{
+property: value;
+}
+*/
+
+/*selector = p */
+
+body {
+  background-color: seagreen;
+  color: lightgoldenrodyellow;
+  margin: 40px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+p {
+  background-color: lightseagreen;
+  padding: 20px;
+  font-size: 72px;
+}
+
+/* selector =.blue */
+.blue{
+  color: powderblue;
+  background-color: steelblue;
+  padding: 50px;
+}
+
+.purple{
+  color: plum;
+  padding: 5px;
+  background-color: lightgoldenrodyellow;
+  font-size: 110px;
+}
+
+.big{
+  color: indianred;
+  padding: 5px;
+  background-color: palevioletred;
+  font-size: 110px;
+}
+
+
+a {
+  color: orangered;
+}
